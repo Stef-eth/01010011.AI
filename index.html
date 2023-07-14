@@ -94,25 +94,100 @@
       margin-bottom: 10px;
     }
   </style>
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+   <style>
+    /* CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+   /* CSS styles */
+.container {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.audio-player {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.buy-button {
+  flex: -30;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: -15px;
+}
+
+
+    .buy-with-crypto {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ffffff;
+      color: #000000;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .buy-with-crypto:hover {
+      background-color: #dddddd;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
-    <audio controls>
-      <source src="audio1.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-    <br>
+    <div class="audio-player">
+      <audio controls>
+        <source src="audio1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="buy-button">
+      <a class="buy-with-crypto" href="https://commerce.coinbase.com/checkout/9692c398-899e-4ef5-a58e-bf616df021e0">
+        Buy with Crypto
+      </a>
+      <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807"></script>
+    </div>
   </div>
-</body>
-</html>
 
-
-</head>
-<body>
   <div class="container">
-    <div>
-      <a class="buy-with-crypto"
-        href="https://commerce.coinbase.com/checkout/9692c398-899e-4ef5-a58e-bf616df021e0">
+    <div class="audio-player">
+      <audio controls>
+        <source src="audio2.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="buy-button">
+      <a class="buy-with-crypto" href="https://commerce.coinbase.com/checkout/ae9ff64b-1e86-4a4f-9574-5612b2856719">
+        Buy with Crypto
+      </a>
+      <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807"></script>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="audio-player">
+      <audio controls>
+        <source src="audio3.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="buy-button">
+      <a class="buy-with-crypto" href="https://commerce.coinbase.com/checkout/5c10e8a9-df35-4fe0-a17b-c28114162b46">
         Buy with Crypto
       </a>
       <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807"></script>
@@ -120,58 +195,3 @@
   </div>
 </body>
 </html>
-
-</head>
-<body>
-  <div class="container">
-    <audio controls>
-      <source src="audio2.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-    <br>
-  </div>
-</body>
-</html>
-
-</head>
-<body>
-  <div class="container">
-    <div>
-      <a class="buy-with-crypto"
-        href="https://commerce.coinbase.com/checkout/ae9ff64b-1e86-4a4f-9574-5612b2856719">
-        Buy with Crypto
-      </a>
-      <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807"></script>
-    </div>
-  </div>
-</body>
-</html>
-
-
-</head>
-<body>
-  <div class="container">
-    <audio controls>
-      <source src="audio3.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-    <br>
-  </div>
-</body>
-</html>
-
-</head>
-<body>
-  <div class="container">
-    <div>
-      <a class="buy-with-crypto"
-        href="https://commerce.coinbase.com/checkout/5c10e8a9-df35-4fe0-a17b-c28114162b46">
-        Buy with Crypto
-      </a>
-      <script src="https://commerce.coinbase.com/v1/checkout.js?version=201807"></script>
-    </div>
-  </div>
-</body>
-</html>
-
-
